@@ -2,5 +2,14 @@
 # CMakeLists in this exact order for cmake to work correctly
 cmake_minimum_required(VERSION 3.22)
 
+set(EXTRA_COMPONENT_DIRS
+    APPLICATION
+    DOCS
+    DRIVER
+    MODULES
+    UTILITY
+    HARDWARE
+)
+
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(GuardianBand)
