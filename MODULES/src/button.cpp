@@ -15,7 +15,7 @@ Button::Button()
     :
     m_gpio(
         {
-            BoardConfig::BUTTON_GPIO,
+            BoardConfig::BUTTON,
             GPIO_MODE_INPUT,
             GPIO_PULLUP_ENABLE,
             GPIO_PULLDOWN_DISABLE,

@@ -3,6 +3,7 @@ idf_component_register(
     SRCS
         "src/led.cpp"
         "src/button.cpp"
+        "src/buzzer.cpp"
 
     INCLUDE_DIRS
         "include"
@@ -10,4 +11,5 @@ idf_component_register(
     REQUIRES
         DRIVER
         UTILITY
+        freertos
 )
