@@ -2,6 +2,7 @@ idf_component_register(
 
     SRCS
         "src/led.cpp"
+        "src/button.cpp"
 
     INCLUDE_DIRS
         "include"
